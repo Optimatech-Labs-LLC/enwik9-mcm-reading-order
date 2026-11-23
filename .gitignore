@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+/decoder/
+/offline-decoder.zip
+/enwik9
+/*.mcm

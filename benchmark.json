@@ -1,0 +1,42 @@
+{
+  "version": "0.1.0",
+  "benchmark": "Large Text Compression Benchmark",
+  "benchmark_url": "https://mattmahoney.net/dc/text.html",
+  "corpus": {
+    "name": "enwik9",
+    "bytes": 1000000000,
+    "sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc"
+  },
+  "backend": "MCM 0.83",
+  "source_commit": "02b4e7d50a39f94d17ab3bf3d49a597a10b1f4a1",
+  "machine": {
+    "cpu": "Intel Xeon Gold 6548N",
+    "vcpus": 32,
+    "installed_ram_gib": 256,
+    "os": "Linux x86-64"
+  },
+  "options": "-x11, single contiguous text segment",
+  "article_order": "original",
+  "scored_files": {
+    "enwik9-reading-order.mcm": 143517939,
+    "offline-decoder.zip": 106866
+  },
+  "total_bytes": 143624805,
+  "archive_sha256": "5851ffe130393e979c5fc60f626ca7a402258f8c6821927f314ee6e73465d5a7",
+  "source_decoder_zip_sha256": "a51e730b60097cbf28c733de1a988104502e0a4a348cc94e1e4adcdd3baabd15",
+  "transform_seconds": 66.458,
+  "backend_encode_seconds": 563.187,
+  "restore_seconds_including_build": 627.776,
+  "restored_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+  "restored_bytes": 1000000000,
+  "offline_restore": true,
+  "direct_byte_comparison": true,
+  "matched_control": {
+    "payload_bytes": 144855293,
+    "decoder_bytes": 102476,
+    "total_bytes": 144957769
+  },
+  "net_bytes_saved": 1332964,
+  "peak_process_memory_bytes": null,
+  "enwik8_bytes": null
+}
